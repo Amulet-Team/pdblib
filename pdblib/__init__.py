@@ -7,3 +7,4 @@ from ._stream import (
     ModuleStream,
     TPIIPIStream,
 )
+from ._header import create_headers
