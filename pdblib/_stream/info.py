@@ -1,7 +1,7 @@
 from io import BytesIO
 from dataclasses import dataclass
 
-from ..struct import Struct
+from pdblib._struct import Struct
 from .base import BaseStream
 
 

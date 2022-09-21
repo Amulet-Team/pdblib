@@ -5,7 +5,7 @@ from typing import TYPE_CHECKING, Tuple, Optional, List
 from io import BytesIO
 import logging
 
-from ..struct import Struct, read_str
+from pdblib._struct import Struct, read_str
 from .base import BaseStream
 
 if TYPE_CHECKING:

@@ -5,9 +5,9 @@ from dataclasses import dataclass, field
 from io import BytesIO
 import logging
 
-from .struct import Struct
-from .stream import BaseStream, DBIStream, PDBInfoStream, ModuleStream, TPIIPIStream, UnknownStream
-from .stream.module import CodeView
+from ._struct import Struct
+from ._stream import BaseStream, DBIStream, PDBInfoStream, ModuleStream, TPIIPIStream, UnknownStream
+from ._stream.module import CodeView
 
 log = logging.getLogger(__name__)
 

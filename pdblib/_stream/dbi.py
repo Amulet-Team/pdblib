@@ -3,7 +3,7 @@ from math import ceil
 from typing import Optional, List, Tuple
 from dataclasses import dataclass, field
 
-from ..struct import Struct, read_str
+from pdblib._struct import Struct, read_str
 from .base import BaseStream
 
 

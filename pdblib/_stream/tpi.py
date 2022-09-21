@@ -1,7 +1,7 @@
 from dataclasses import dataclass
 import logging
 
-from ..struct import Struct
+from pdblib._struct import Struct
 from .base import BaseStream
 
 log = logging.getLogger(__name__)
