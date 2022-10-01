@@ -89,7 +89,7 @@ class PDB7(AbstractBasePDB):
             log.info("Extra data after root stream")
         root_stream = BytesIO(root_stream_bytes[:self.header.NumDirectoryBytes])
         stream_count = Struct("<I").read(root_stream)[0]
-        stream_sizes = Struct(f"<{stream_count}I").read(root_stream)
+        stream_sizes = Struct(f"<{stream_count}i").read(root_stream)
         stream_block_indexes = []
 
         for stream_size in stream_sizes:
